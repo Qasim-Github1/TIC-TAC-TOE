@@ -1,0 +1,54 @@
+
+* {
+margin: 0;
+padding: 0;
+}
+h1{
+    font-size: 40px;
+    color: gold;
+    margin-top: 25px;
+}
+body {
+    text-align: center;
+    background-color: rgb(103, 91, 76);
+}
+.main-div{
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.game {
+height: 60vmin;
+width: 60vmin;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 1.5vmin;
+}
+.buttons{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 0.5rem;
+    font-size: 8vmin;
+    color: brown;
+    background-color: rgb(111, 111, 138);
+} 
+#resetbtn {
+    height: 70px;
+    width: 300px;
+    border-radius: 0.5rem;
+    background-color: rgb(157, 31, 31);
+    font-size: 50px;
+    color: chartreuse;
+}
+.msg{
+    font-size: 50px;
+    color: indigo;
+    margin-top: 20px;
+    text-decoration: overline;
+}
+.hide{
+    display: none;
+}
